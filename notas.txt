@@ -1,0 +1,3 @@
+Plugins para VS Code:
+
+Code Runner - executa códigos js
