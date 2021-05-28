@@ -1,3 +1,3 @@
-# CursoWebModerno
+# Estudo JavaScript 
 
-Exercícios e projetos do curso Web Moderno.
+Estudando a linguagem JavaScript.
