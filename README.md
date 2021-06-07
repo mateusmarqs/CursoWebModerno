@@ -1,3 +1,3 @@
-# Estudo JavaScript 
+# Aprendizados e anotações
 
-Estudando a linguagem JavaScript.
+Repositória criado para armazenar os aprendizados e anotações.
