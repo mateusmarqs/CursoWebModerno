@@ -5,4 +5,4 @@ const imprimir = function(nota) {
         console.log('Reprovado')
     }
 }
-imprimir(8)
+imprimir(8) 
