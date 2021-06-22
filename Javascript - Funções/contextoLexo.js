@@ -5,7 +5,7 @@ function minhaFuncao() {
 }
 
 function exec() {
-    const valor = 'local'
+     
     minhaFuncao()
 }
 
