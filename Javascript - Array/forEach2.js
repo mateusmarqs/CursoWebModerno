@@ -9,3 +9,4 @@ const aprovados = ['Marcos', 'Roberto', 'Silva', 'Daninha']
 aprovados.forEach2((nome, indice) => {
     console.log('O aprovado está no indice', indice+1, ', e seu nome é',nome)
 })
+
