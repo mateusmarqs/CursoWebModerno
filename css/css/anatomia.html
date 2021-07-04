@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anatomia CSS</title>
+    <style>
+        .selector {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            /* Multiplos valores */
+            border: solid 5px #0e92eb;
+            /* Alternativas (valores separados por vírgulas) */
+            font-family: Roboto, sans-serif;
+            /* Funções */
+            width: calc(100% - 100px);
+            /*  */
+            background-color: #0969a8
+        }
+
+        /* pseudo-classe */
+        .selector:hover {
+            background-color: darkorange;
+        }
+
+        /* pseudo-elemento */
+        .selector::first-letter {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        /* Padrão de nomenclatura? */
+        /* dash-case ou camelCase? */
+        /* dash-case mais utilizada no mercado */
+    </style>
+</head>
+
+<body>
+    <div class="selector">Conteúdo</div>
+</body>
+
+</html>

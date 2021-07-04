@@ -1,3 +1,5 @@
 Plugins para VS Code:
 
 Code Runner - executa códigos js
+
+VSCode: Ctr + K + C para comentar uma linha de código em qualquer linguagem
