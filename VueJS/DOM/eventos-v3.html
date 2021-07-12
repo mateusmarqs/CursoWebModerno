@@ -3,7 +3,11 @@
 <div id="app">
     <p>{{ contador }}</p>
     <button v-on:click='somar(5, $event)'>Somar 1</button> 
-    <p v-on:mousemove='atualizarXY'> Mouse: {{ x }} {{ y }}</p>
+    <p v-on:mousemove='atualizarXY'>
+        Mouse: {{ x }} {{ y }}
+        <span v-on:mousemove='parar'>PARAR AQIU!</span>
+        <span v-on:mousemove.stop>PARAR AQIU!</span>
+    </p>
 </div> 
 
 <script>
@@ -22,7 +26,10 @@
             atualizarXY(event) {
                 this.x = event.clientX
                 this.y = event.clientY
-            }
+            },
+            parar(event) {
+                event.stopPropagation()
+            } 
         }
     })
 </script>
